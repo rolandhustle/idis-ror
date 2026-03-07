@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+
+<!-- ================================================================
+  IDIS RÖR AB – WEBBSIDA
+  ================================================================
+
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  ÄNDRA KONTAKTUPPGIFTER HÄR                                 ║
+  ╚══════════════════════════════════════════════════════════════╝
+
+  TELEFON:          0704831263
+  TELEFON DISPLAY:  070-483 12 63
+  E-POST:           sanktidis76@gmail.com
+  GATUADRESS:       Sulvägen 70
+  POSTNR & ORT:     12640 Hägersten
+  ORGANISATIONSNR:  559146-8953
+  WEBBPLATS:        https://www.idisror.se/
+
+================================================================ -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: Titel & beskrivning (startsida) -->
+  <title>Rörmokare Stockholm – Idis Rör AB | VVS &amp; Rörinstallation</title>
+  <meta name="description" content="Auktoriserad rörmokare i Stockholm. Idis Rör AB utför VVS, badrumsrenovering, rörinstallation och jour. Utgår från Hägersten – hela Storstockholm.">
+  <meta name="keywords" content="rörmokare Stockholm, VVS Stockholm, rörinstallation, badrumsrenovering, avloppsrensning, rörjour, Idis Rör, VVS Hägersten">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.idisror.se/">
+  <link rel="alternate" hreflang="sv-SE" href="https://www.idisror.se/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rörmokare Stockholm – Idis Rör AB | VVS &amp; Rörinstallation">
+  <meta property="og:description" content="Auktoriserad rörmokare i Stockholm. Idis Rör AB utför VVS, badrumsrenovering, rörinstallation och jour. Utgår från Hägersten – hela Storstockholm.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv_SE">
+  <meta property="og:url" content="https://www.idisror.se/">
+
+  <!-- Strukturerad data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "Idis Rör AB",
+    "telephone": "0704831263",
+    "email": "sanktidis76@gmail.com",
+    "url": "https://www.idisror.se/",
+    "logo": "https://www.idisror.se/idis_logo_transparent.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sulvägen 70",
+      "postalCode": "12640",
+      "addressLocality": "Hägersten",
+      "addressCountry": "SE"
+    },
+    "areaServed": { "@type": "City", "name": "Stockholm" },
+    "description": "Auktoriserad VVS-firma med bred kompetens. Rörinstallationer, badrumsrenoveringar, avloppsrensning, rörjour och mer.",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "07:00",
+      "closes": "17:00"
+    }],
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Organisationsnummer",
+      "value": "559146-8953"
+    }
+  }
+  </script>
+
+  <!-- Typsnitt: Montserrat (rubriker) + Inter (brödtext) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== ÄNDRA HÄR – Designvariabler ===== */
+    :root {
+      --morkbla:   #3A3FA3;
+      --orange:    #F79356;
+      --ljusbla:   #E0F2F8;
+      --vit:       #ffffff;
+      --text-mork: #1a1a2e;
+      --text-gra:  #4a4a70;
+      --border:    #b8d4ec;
+      --skugga-s:  0 2px 8px rgba(58,63,163,0.10);
+      --skugga-m:  0 4px 20px rgba(58,63,163,0.14);
+      --skugga-l:  0 8px 40px rgba(58,63,163,0.18);
+      --radie:     10px;
+    }
+
+    /* ---- Reset & bas ---- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+      color: var(--text-mork);
+      background: var(--ljusbla);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+      font-weight: 400;
+    }
+
+    /* ================================================================
+       NAVIGERING
+    ================================================================ */
+    nav {
+      background: var(--morkbla);
+      position: sticky;
+      top: 0;
+      z-index: 500;
+      box-shadow: 0 2px 16px rgba(58,63,163,0.3);
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    /* Logotyptext i nav */
+    .nav-logo {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--vit);
+      text-decoration: none;
+      letter-spacing: 3px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    /* Navigationslänkar */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.1rem;
+      list-style: none;
+    }
+
+    .nav-links > li > a,
+    .nav-links > li > span {
+      color: rgba(255,255,255,0.9);
+      text-decoration: none;
+      padding: 0.5rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      transition: background 0.2s;
+      display: block;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .nav-links > li > a:hover,
+    .nav-links > li > span:hover { background: rgba(255,255,255,0.12); }
+
+    /* Ring-knapp i nav */
+    .nav-ring {
+      background: var(--orange) !important;
+      color: var(--vit) !important;
+      border-radius: 8px !important;
+      padding: 0.5rem 1.1rem !important;
+      font-weight: 700 !important;
+      text-decoration: none !important;
+    }
+    .nav-ring:hover { background: #e07840 !important; }
+
+    /* Dropdown */
+    .nav-dropdown { position: relative; }
+    .nav-dropdown > span::after { content: ' ▾'; font-size: 0.7rem; }
+
+    .dropdown-meny {
+      display: none;
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      background: var(--vit);
+      border-radius: var(--radie);
+      box-shadow: var(--skugga-l);
+      min-width: 240px;
+      padding: 0.5rem 0;
+      border: 1px solid var(--border);
+      z-index: 600;
+    }
+
+    .dropdown-meny a {
+      color: var(--text-mork) !important;
+      padding: 0.58rem 1.3rem !important;
+      font-size: 0.87rem !important;
+      font-weight: 500 !important;
+      display: block;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .dropdown-meny a:hover {
+      background: var(--ljusbla) !important;
+      color: var(--morkbla) !important;
+    }
+
+    .nav-dropdown:hover .dropdown-meny,
+    .nav-dropdown:focus-within .dropdown-meny { display: block; }
+
+    /* Hamburgermeny */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.4rem;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 26px;
+      height: 3px;
+      background: var(--vit);
+      border-radius: 2px;
+    }
+
+    /* ================================================================
+       MOBIL STICKY RING-KNAPP (visas på mobil längst ner)
+    ================================================================ */
+    .mobil-ring {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 400;
+      background: var(--orange);
+      padding: 0.95rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 -2px 16px rgba(247,147,86,0.4);
+    }
+
+    .mobil-ring a {
+      color: var(--vit);
+      font-weight: 800;
+      font-size: 1.08rem;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      letter-spacing: 0.3px;
+    }
+
+    /* ================================================================
+       SIDVISNING (SPA)
+    ================================================================ */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    /* ================================================================
+       HERO – STARTSIDA
+    ================================================================ */
+    .hero {
+      background: var(--ljusbla);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+      border-bottom: 3px solid var(--border);
+    }
+
+    .hero-logo {
+      max-width: 280px;
+      width: 80%;
+      display: block;
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      color: var(--morkbla);
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+    }
+
+    .hero-sub {
+      font-size: clamp(1.03rem, 2.19vw, 1.44rem);
+      color: var(--morkbla);
+      line-height: 1.2;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* ================================================================
+       KNAPPAR
+    ================================================================ */
+    .btn {
+      display: inline-block;
+      padding: 0.85rem 1.8rem;
+      border-radius: var(--radie);
+      font-size: 0.97rem;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+      cursor: pointer;
+      border: none;
+      line-height: 1.4;
+    }
+
+    .btn:hover { transform: translateY(-2px); box-shadow: var(--skugga-m); }
+    .btn-orange { background: var(--orange); color: var(--vit); }
+    .btn-orange:hover { background: #e07840; }
+    .btn-blue { background: var(--morkbla); color: var(--vit); }
+    .btn-blue:hover { background: #2d3291; }
+    .btn-outline { background: transparent; color: var(--morkbla); border: 2px solid var(--morkbla); }
+    .btn-outline:hover { background: var(--morkbla); color: var(--vit); }
+
+    /* ================================================================
+       TVÅKOLUMNSLAYOUT (startsida + tjänstesidor)
+    ================================================================ */
+    .tva-kolumner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 4rem;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    /* Vänster: textkolumn */
+    .text-kolumn h1 {
+      font-size: clamp(1.65rem, 3.5vw, 2.3rem);
+      color: var(--morkbla);
+      margin-bottom: 1.2rem;
+      line-height: 1.2;
+    }
+
+    .text-kolumn p {
+      color: var(--text-gra);
+      line-height: 1.88;
+      margin-bottom: 1.4rem;
+      font-size: 1rem;
+    }
+
+    /* USP-lista */
+    .usp-rubrik {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+      color: var(--morkbla);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 0.75rem;
+      padding-top: 1.5rem;
+      border-top: 2px solid var(--border);
+    }
+
+    .usp-lista {
+      list-style: disc;
+      padding-left: 1.4rem;
+      margin: 0 0 1.5rem;
+    }
+
+    .usp-lista li {
+      padding: 0.3rem 0;
+      color: var(--text-mork);
+      font-size: 0.97rem;
+      font-weight: 500;
+    }
+
+    /* "Varför välja oss"-kort */
+    .vfo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+      margin-top: 1.5rem;
+    }
+
+    .vfo-kort {
+      background: var(--vit);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radie);
+      padding: 1rem 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+    }
+
+    .vfo-ikon { font-size: 1.5rem; flex-shrink: 0; }
+
+    .vfo-kort strong {
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: var(--morkbla);
+      font-family: 'Montserrat', sans-serif;
+      display: block;
+    }
+
+    /* ================================================================
+       KONTAKTFORMULÄR (höger kolumn)
+    ================================================================ */
+    .form-kolumn {
+      background: var(--vit);
+      border-radius: 18px;
+      box-shadow: var(--skugga-l);
+      overflow: hidden;
+      position: sticky;
+      top: 85px;
+    }
+
+    .form-header {
+      background: var(--morkbla);
+      padding: 1.5rem 2rem 1.25rem;
+      text-align: center;
+    }
+
+    .form-header h2 {
+      color: var(--vit);
+      font-size: 1.15rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .form-header p {
+      color: rgba(255,255,255,0.72);
+      font-size: 0.84rem;
+    }
+
+    .form-body { padding: 1.75rem 2rem 1.5rem; }
+
+    .form-grupp { margin-bottom: 1.1rem; }
+
+    .form-grupp label {
+      display: block;
+      font-size: 0.79rem;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      color: var(--morkbla);
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .form-grupp input,
+    .form-grupp textarea {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+      color: var(--text-mork);
+      background: var(--vit);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-grupp input:focus,
+    .form-grupp textarea:focus {
+      outline: none;
+      border-color: var(--morkbla);
+      box-shadow: 0 0 0 3px rgba(58,63,163,0.13);
+    }
+
+    .form-grupp textarea { resize: vertical; min-height: 110px; }
+
+    /* Kundtyp radio */
+    .kundtyp-rad {
+      display: flex;
+      gap: 1.5rem;
+      background: var(--ljusbla);
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 0.7rem 1rem;
+      flex-wrap: wrap;
+    }
+
+    .kundtyp-rad label {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.93rem;
+      font-weight: 600;
+      color: var(--text-mork);
+      text-transform: none;
+      letter-spacing: 0;
+      cursor: pointer;
+      margin-bottom: 0;
+    }
+
+    .kundtyp-rad input[type="radio"] { width: auto; accent-color: var(--morkbla); }
+
+    /* Filuppladdning */
+    .fil-upload {
+      border: 2px dashed var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      background: var(--ljusbla);
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .fil-upload:hover { border-color: var(--morkbla); background: rgba(224,242,248,0.6); }
+    .fil-upload input[type="file"] { display: none; }
+    .fil-upload-label { cursor: pointer; display: block; }
+    .fil-ikon { font-size: 1.6rem; display: block; margin-bottom: 0.3rem; }
+    .fil-text { font-size: 0.84rem; color: var(--text-gra); }
+    .fil-text strong { color: var(--morkbla); }
+    .fil-namn { font-size: 0.8rem; color: var(--morkbla); margin-top: 0.45rem; font-weight: 600; }
+
+    /* Skicka-knapp */
+    .form-skicka {
+      width: 100%;
+      padding: 1rem;
+      background: var(--orange);
+      color: var(--vit);
+      border: none;
+      border-radius: var(--radie);
+      font-size: 1.03rem;
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      margin-top: 0.3rem;
+    }
+
+    .form-skicka:hover { background: #e07840; transform: translateY(-2px); }
+
+    .form-info {
+      font-size: 0.77rem;
+      color: var(--text-gra);
+      text-align: center;
+      margin-top: 0.6rem;
+    }
+
+    /* ================================================================
+       SEKTIONSRUBRIK (gemensam)
+    ================================================================ */
+    .sek-rubrik {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .sek-rubrik h2 {
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      color: var(--morkbla);
+      margin-bottom: 0.35rem;
+    }
+
+    .sek-rubrik p { color: var(--text-gra); font-size: 0.97rem; }
+
+    .understreck {
+      display: block;
+      width: 52px;
+      height: 4px;
+      background: var(--orange);
+      border-radius: 2px;
+      margin: 0.5rem auto 0;
+    }
+
+    /* ================================================================
+       TJÄNSTEKORT-GRID (startsida)
+    ================================================================ */
+    .tjanst-grid-sek {
+      background: var(--vit);
+      padding: 4.5rem 1.5rem;
+    }
+
+    .tjanst-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .tjanst-kort {
+      background: var(--ljusbla);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 1.75rem 1.5rem;
+      text-decoration: none;
+      color: var(--text-mork);
+      transition: box-shadow 0.2s, transform 0.2s, background 0.2s, border-color 0.2s;
+      display: block;
+      cursor: pointer;
+    }
+
+    .tjanst-kort:hover {
+      box-shadow: var(--skugga-m);
+      transform: translateY(-4px);
+      background: var(--vit);
+      border-color: var(--orange);
+    }
+
+    .tjanst-ikon { font-size: 2.2rem; display: block; margin-bottom: 0.75rem; }
+
+    .tjanst-kort h3 {
+      font-size: 1rem;
+      color: var(--morkbla);
+      margin-bottom: 0.4rem;
+    }
+
+    .tjanst-kort p {
+      font-size: 0.85rem;
+      color: var(--text-gra);
+      line-height: 1.55;
+      margin-bottom: 0.75rem;
+    }
+
+    .las-mer {
+      font-size: 0.85rem;
+      color: var(--orange);
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* ================================================================
+       VITTNESMÅL
+    ================================================================ */
+    .vittnesmaal-sek {
+      background: var(--ljusbla);
+      padding: 4.5rem 1.5rem;
+    }
+
+    .vittnesmaal-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .vittnesmaal-kort {
+      background: var(--vit);
+      border-radius: 14px;
+      padding: 1.75rem;
+      box-shadow: var(--skugga-s);
+      border-left: 4px solid var(--orange);
+    }
+
+    .stjarnckor { color: var(--orange); font-size: 1rem; margin-bottom: 0.6rem; }
+
+    .vittnesmaal-text {
+      font-style: italic;
+      color: var(--text-gra);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    .vittnesmaal-namn {
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      color: var(--morkbla);
+      font-size: 0.88rem;
+    }
+
+    /* ================================================================
+       FÖRTROENDESIGNALER
+    ================================================================ */
+    .fortroende-sek {
+      background: var(--vit);
+      padding: 2.25rem 1.5rem;
+      border-top: 2px solid var(--border);
+    }
+
+    .fortroende-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .fortroende-item {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--text-gra);
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .fortroende-item .f-ikon { font-size: 1.5rem; }
+
+    /* ================================================================
+       BREADCRUMB
+    ================================================================ */
+    .breadcrumb {
+      padding: 0.75rem 1.5rem;
+      background: var(--vit);
+      border-bottom: 1px solid var(--border);
+      font-size: 0.83rem;
+      color: var(--text-gra);
+    }
+
+    .breadcrumb a {
+      color: var(--morkbla);
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .breadcrumb a:hover { text-decoration: underline; }
+
+    /* ================================================================
+       TJÄNSTESIDA HERO-BILD
+    ================================================================ */
+    .tjanst-hero-bild {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* ================================================================
+       BOKSIDA – höger kolumn
+    ================================================================ */
+    .bok-bild-wrapper {
+      background: var(--vit);
+      border-radius: 18px;
+      box-shadow: var(--skugga-l);
+      padding: 2rem;
+      text-align: center;
+      position: sticky;
+      top: 85px;
+    }
+
+    .bok-bild {
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      border-radius: 12px;
+      box-shadow: var(--skugga-m);
+      margin: 0 auto 1.5rem;
+    }
+
+    /* ================================================================
+       SIDFOT
+    ================================================================ */
+    footer {
+      background: var(--morkbla);
+      color: rgba(255,255,255,0.75);
+      padding: 3.5rem 1.5rem 1.5rem;
+    }
+
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-logo-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--vit);
+      letter-spacing: 2px;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-kolumn h4 {
+      color: var(--vit);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .footer-kolumn p,
+    .footer-kolumn a {
+      font-size: 0.87rem;
+      color: rgba(255,255,255,0.65);
+      text-decoration: none;
+      display: block;
+      margin-bottom: 0.45rem;
+      line-height: 1.6;
+      cursor: pointer;
+    }
+
+    .footer-kolumn a:hover { color: var(--orange); }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding-top: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    /* ================================================================
+       RESPONSIV DESIGN
+    ================================================================ */
+    @media (max-width: 800px) {
+      /* Hamburgermeny */
+      .hamburger { display: flex; }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: var(--morkbla);
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0.75rem 1.25rem 1.5rem;
+        gap: 0.1rem;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        z-index: 499;
+      }
+
+      .nav-links.open { display: flex; }
+
+      .nav-links > li > a,
+      .nav-links > li > span { white-space: normal; }
+
+      /* Dropdown mobil */
+      .dropdown-meny {
+        position: static;
+        box-shadow: none;
+        background: rgba(255,255,255,0.08);
+        border: none;
+        border-radius: 6px;
+        margin-top: 0.15rem;
+        padding: 0.25rem 0 0.25rem 0.75rem;
+        display: none;
+      }
+
+      .nav-dropdown.open .dropdown-meny { display: block; }
+
+      .dropdown-meny a {
+        color: rgba(255,255,255,0.82) !important;
+        font-size: 0.85rem !important;
+        padding: 0.45rem 0.75rem !important;
+      }
+
+      .dropdown-meny a:hover {
+        background: rgba(255,255,255,0.1) !important;
+        color: var(--vit) !important;
+      }
+
+      /* Dölj ring-knapp i nav på mobil – visas i sticky istället */
+      .nav-ring-wrapper { display: none; }
+
+      /* Visa mobil sticky knapp */
+      .mobil-ring { display: block; }
+      body { padding-bottom: 64px; }
+
+      /* Tvåkolumner → enkolumn */
+      .tva-kolumner {
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 3rem;
+        gap: 2rem;
+      }
+
+      .form-kolumn { position: static; }
+      .bok-bild-wrapper { position: static; }
+
+      /* Tjänstegrid 2-kolumn på surfplatta */
+      .tjanst-grid { grid-template-columns: repeat(2, 1fr); }
+
+      /* Vittnesmål 1-kolumn */
+      .vittnesmaal-grid { grid-template-columns: 1fr; }
+
+      /* Footer 1-kolumn */
+      .footer-inner { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+
+      /* Hero-bild tjänstesida kortare */
+      .tjanst-hero-bild { height: 260px; }
+
+      /* VFO-grid 1-kolumn */
+      .vfo-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 580px) {
+      .tjanst-grid { grid-template-columns: 1fr; }
+      .tjanst-hero-bild { height: 200px; }
+      .hero { padding: 2rem 1rem 2rem; }
+      .vfo-grid { grid-template-columns: 1fr 1fr; }
+      .fortroende-inner { gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ================================================================
+     NAVIGERING
+================================================================ -->
+<nav aria-label="Huvudnavigering">
+  <div class="nav-inner">
+    <!-- Logotyp -->
+    <span class="nav-logo" onclick="navigera('hem')" role="link" tabindex="0" aria-label="Idis Rör AB – startsida">
+      IDIS RÖR AB
+    </span>
+
+    <!-- Hamburgermeny (mobil) -->
+    <button class="hamburger" aria-label="Öppna meny" onclick="toggleMeny()">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Navigationslänkar -->
+    <ul class="nav-links" id="nav-lista" role="menubar">
+
+      <li role="none">
+        <a href="#" onclick="navigera('hem'); return false;" role="menuitem">Hem</a>
+      </li>
+
+      <li class="nav-dropdown" role="none">
+        <span onclick="toggleDropdown(this)" role="menuitem" aria-haspopup="true" tabindex="0">Tjänster</span>
+        <div class="dropdown-meny" role="menu">
+          <a href="#" onclick="navigera('rorinstallation'); return false;" role="menuitem">Rörinstallation</a>
+          <a href="#" onclick="navigera('badrumsrenovering'); return false;" role="menuitem">Badrumsrenovering</a>
+          <a href="#" onclick="navigera('avlopp-spolning'); return false;" role="menuitem">Avlopp &amp; Spolning</a>
+          <a href="#" onclick="navigera('service-underhall'); return false;" role="menuitem">Service &amp; Underhåll</a>
+          <a href="#" onclick="navigera('varmvattenberedare'); return false;" role="menuitem">Varmvattenberedare</a>
+          <a href="#" onclick="navigera('vattenlacka'); return false;" role="menuitem">Vattenläcka</a>
+          <a href="#" onclick="navigera('vvs-renovering'); return false;" role="menuitem">VVS-renovering</a>
+        </div>
+      </li>
+
+      <li role="none">
+        <a href="#" onclick="navigera('i-skuggan-av-slagen'); return false;" role="menuitem">Joakim "Idis" Eriksson</a>
+      </li>
+
+      <li class="nav-ring-wrapper" role="none">
+        <a href="tel:0704831263" class="nav-ring" role="menuitem" aria-label="Ring Idis Rör AB">
+          📞 Ring oss: 070-483 12 63
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<!-- ================================================================
+     MOBIL STICKY RING-KNAPP
+================================================================ -->
+<div class="mobil-ring" aria-label="Ring oss direkt">
+  <a href="tel:0704831263">📞 Ring oss: 070-483 12 63</a>
+</div>
+
+
+<!-- ================================================================
+     KONTAKTFORMULÄR – MALL (klonas av JavaScript)
+================================================================ -->
+<template id="kontakt-mall">
+  <div class="form-header">
+    <h2>Kontakta oss</h2>
+  </div>
+  <div class="form-body">
+    <form action="#" method="POST" enctype="multipart/form-data" onsubmit="return hanteraFormular(event)">
+
+      <!-- Kundtyp -->
+      <div class="form-grupp">
+        <label>Jag är</label>
+        <div class="kundtyp-rad">
+          <label><input type="radio" name="kundtyp" value="privatperson" checked aria-label="Privatperson"> Privatperson</label>
+          <label><input type="radio" name="kundtyp" value="foretag" aria-label="Företag eller BRF"> Företag / BRF</label>
+        </div>
+      </div>
+
+      <!-- Namn -->
+      <div class="form-grupp">
+        <label for="f-namn">Namn *</label>
+        <input type="text" id="f-namn" name="namn" placeholder="Ditt namn" required autocomplete="name" aria-required="true">
+      </div>
+
+      <!-- E-post -->
+      <div class="form-grupp">
+        <label for="f-epost">E-post *</label>
+        <input type="email" id="f-epost" name="epost" placeholder="din@epost.se" required autocomplete="email" aria-required="true">
+      </div>
+
+      <!-- Telefon -->
+      <div class="form-grupp">
+        <label for="f-telefon">Telefon</label>
+        <input type="tel" id="f-telefon" name="telefon" placeholder="07X-XXX XX XX" autocomplete="tel">
+      </div>
+
+      <!-- Meddelande -->
+      <div class="form-grupp">
+        <label for="f-meddelande">Meddelande *</label>
+        <textarea id="f-meddelande" name="meddelande" placeholder="Beskriv ditt ärende – gärna med adress och önskat datum" required aria-required="true"></textarea>
+      </div>
+
+      <!-- Bilduppladdning -->
+      <div class="form-grupp">
+        <label>Bifoga bilder (valfritt)</label>
+        <div class="fil-upload">
+          <label class="fil-upload-label" aria-label="Klicka för att bifoga bilder">
+            <span class="fil-ikon">📎</span>
+            <span class="fil-text"><strong>Klicka för att bifoga bilder</strong><br>JPG, PNG, HEIC – max 10 MB per bild</span>
+            <input type="file" name="bilder" accept="image/*" multiple onchange="visaFilnamn(this)" aria-label="Välj bilder att bifoga">
+          </label>
+          <div class="fil-namn" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <button type="submit" class="form-skicka">Skicka förfrågan &rarr;</button>
+      <p class="form-info">* Obligatoriska fält. Kontakta en webbtekniker för att koppla formuläret till e-post.</p>
+    </form>
+  </div>
+</template>
+
+
+<!-- ================================================================
+     STARTSIDA
+================================================================ -->
+<div id="page-hem" class="page active">
+
+  <!-- HERO -->
+  <header class="hero">
+    <img
+      src="idis_logo_transparent.png"
+      alt="Idis Rör AB – Auktoriserad rörmokare Stockholm"
+      class="hero-logo"
+    >
+    <p class="hero-sub">
+      Auktoriserad rörmokare i Storstockholm.<br>Stora som små jobb med kvalité i fokus.
+    </p>
+    <div class="hero-btns">
+      <a href="tel:0704831263" class="btn btn-orange" aria-label="Ring Idis Rör AB">📞 Ring nu: 070-483 12 63</a>
+      <button onclick="scrollaTillFormular()" class="btn btn-outline">Skicka förfrågan ↓</button>
+    </div>
+  </header>
+
+  <!-- TVÅKOLUMNSLAYOUT: TEXT + FORMULÄR -->
+  <div class="tva-kolumner">
+
+    <!-- Vänster: företagstext -->
+    <div class="text-kolumn">
+      <h1>Om Idis Rör AB</h1>
+      <p>
+        Idis Rör AB är ett etablerat VVS-företag med bred kompetens inom alla typer av
+        VVS-installationer. Vi utför arbeten åt företag, privatpersoner och bostadsrättsföreningar,
+        alltid med fokus på kvalitet, säkerhet och fackmässigt utförande. Samtliga arbeten utförs
+        av auktoriserade rörmokare.
+      </p>
+      <p>
+        Vi utgår från Hägersten och åtar oss uppdrag i hela Storstockholm. Våra tjänster
+        omfattar allt från servicejobb och mindre ombyggnader till renoveringar och kompletta
+        VVS-lösningar. Med vår erfarenhet och goda samarbetspartners tar Idis Rör AB ansvar
+        för både mindre projekt och mer omfattande arbeten – med pålitlig service och tydlig
+        kommunikation från första kontakt till färdigt resultat.
+      </p>
+
+      <!-- Varför välja oss -->
+      <span class="usp-rubrik">Varför välja oss?</span>
+      <ul class="usp-lista">
+        <li>Auktoriserade rörmokare</li>
+        <li>Hela Storstockholm</li>
+        <li>Snabb service</li>
+        <li>Fast pris &amp; tydliga offerter</li>
+      </ul>
+    </div>
+
+    <!-- Höger: kontaktformulär (injiceras av JS) -->
+    <div id="hem-formular-plats" class="form-kolumn"></div>
+
+  </div><!-- /tva-kolumner -->
+
+
+</div><!-- /page-hem -->
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: BADRUMSRENOVERING
+================================================================ -->
+<div id="page-badrumsrenovering" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › Badrumsrenovering
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="badrumsrenovering.jpg"
+    alt="Badrumsrenovering Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>Badrumsrenovering</h1>
+      <p>
+        En badrumsrenovering – eller badrumsombyggnad som det också kan kallas – är en av de mest
+        lönsamma investeringarna du kan göra i din bostad. Utöver att öka boendekomforten höjer
+        ett nyrenoverat badrum fastighetens värde och förbättrar funktionen i vardagen. Idis Rör AB
+        utför kompletta badrumsrenoveringar med allt rörarbete fackmässigt utfört av auktoriserade
+        rörmokare.
+      </p>
+      <p>
+        Vi ansvarar för hela VVS-delen av din badrumsombyggnad: dragning av vatten- och
+        avloppsledningar, installation av toalett, dusch, badkar och handfat, samt anslutning
+        av blandare och armaturer. Vi samarbetar med pålitliga partners inom kakel, plattsättning
+        och snickeri för att kunna erbjuda ett komplett renoveringspaket – ett rum, en koordinerad
+        process.
+      </p>
+      <p>
+        Oavsett om du vill modernisera ett äldre WC-rum, bygga om ett befintligt badrum eller
+        skapa ett helt nytt utrymme hjälper vi dig från idé till färdigt resultat. Samtliga
+        arbeten utförs enligt gällande byggregler och branschkrav. ROT-avdrag kan tillämpas
+        för privatpersoner – vi hjälper dig med det praktiska.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Auktoriserade rörmokare med lång erfarenhet av badrumsrenovering</li>
+        <li>Komplett installation: toalett, dusch, badkar, handfat och blandare</li>
+        <li>Samarbetar med kakel-, plattsättnings- och snickerihantverkare</li>
+        <li>Golvvärme och ventilationslösningar ingår vid behov</li>
+        <li>ROT-avdrag kan tillämpas för privatpersoner</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+        <li>Kostnadsfri offert på plats</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: RÖRINSTALLATION
+================================================================ -->
+<div id="page-rorinstallation" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › Rörinstallation
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="r%C3%B6rinstallation.jpg"
+    alt="Rörinstallation Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>Rörinstallation</h1>
+      <p>
+        Rörinstallation – eller ledningsdragning och rörmontage som det också kallas – är
+        grunden för ett fungerande VVS-system i alla typer av fastigheter. Oavsett om du
+        bygger nytt, renoverar eller behöver byta ut gamla ledningar erbjuder Idis Rör AB
+        professionell rördragning med hög kvalitet och lång hållbarhet.
+      </p>
+      <p>
+        Vi utför installation av vatten-, avlopps- och värmerör för privatpersoner,
+        bostadsrättsföreningar och företag i hela Storstockholm. Våra auktoriserade
+        rörmokare arbetar med moderna material som PEX och koppar och anpassar alltid
+        lösningen efter fastigheten och kundens behov. En korrekt utförd rörinstallation
+        minskar risken för läckor, vattenskador och framtida kostsamma reparationer.
+      </p>
+      <p>
+        Vi hjälper dig från planering till färdigt utförande – inklusive anslutning av
+        vitvaror, sanitetsutrustning och radiatorer. Samtliga röranslutningar utförs
+        enligt gällande branschstandard och krav från Boverket. Med Idis Rör AB som
+        VVS-partner kan du känna dig trygg med att installationen håller under lång tid.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Auktoriserade rörmokare med lång erfarenhet</li>
+        <li>Arbetar med PEX, koppar och moderna rörsystem</li>
+        <li>Nyinstallation, ombyggnad och stambyte</li>
+        <li>Anslutning av vitvaror, sanitetsutrustning och radiatorer</li>
+        <li>Servar privatpersoner, BRF och företag</li>
+        <li>ROT-avdrag kan tillämpas för privatpersoner</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: VATTENLÄCKA
+================================================================ -->
+<div id="page-vattenlacka" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › Vattenläcka
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="vattenl%C3%A4cka.jpg"
+    alt="Vattenläcka Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>Vattenläcka</h1>
+      <p>
+        En akut rörstörning eller vattenläcka kan uppstå när som helst och orsaka allvarliga
+        vattenskador på din bostad eller fastighet. Oavsett om det rör sig om ett droppande
+        rör, en bruten ledning eller ett spräckt rör under golvet krävs snabb och kompetent
+        hjälp. Idis Rör AB erbjuder snabb utryckning i hela Storstockholm.
+      </p>
+      <p>
+        Vi lokaliserar och åtgärdar vattenintrång, rörskador och läckor snabbt och effektivt.
+        Med modern utrustning kan vi hitta dolda vattenläckor utan onödig åverkan på din bostad.
+        Vid akuta situationer – stäng av vattnet om möjligt och ring oss direkt på
+        070-483 12 63, så skickar vi en rörmokare till dig snarast möjligt.
+      </p>
+      <p>
+        Vi hjälper dig även med uppföljande reparationer och kontroller för att säkerställa
+        att fastigheten inte tar mer skada. Tidigt ingripande vid en vattenskada är avgörande
+        för att minimera kostnader och förhindra fuktskador och mögel på sikt.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Snabb utryckning vid akuta vattenläckor och rörstörningar</li>
+        <li>Lokalisering av dolda läckor utan onödig rivning</li>
+        <li>Reparation av spruckna, läckande och trasiga rör</li>
+        <li>Uppföljande kontroller och skadeförebyggande åtgärder</li>
+        <li>ROT-avdrag kan tillämpas för privatpersoner</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: AVLOPP & SPOLNING
+================================================================ -->
+<div id="page-avlopp-spolning" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › Avlopp &amp; Spolning
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="avlopp%20%26%20spolning.jpg"
+    alt="Avlopp och spolning Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>Avlopp &amp; Spolning</h1>
+      <p>
+        Igentäppta avlopp och avloppsledningar är ett vanligt problem i svenska fastigheter
+        och kan orsaka obehaglig lukt, översvämning och allvarliga vattenskador om det inte
+        åtgärdas i tid. Idis Rör AB utför professionell avloppsrensning och ledningsspolning
+        för privatpersoner, bostadsrättsföreningar och fastighetsägare i hela Storstockholm.
+      </p>
+      <p>
+        Med modern högtrycksutrustning spolar vi igenom avloppsledningar, golvbrunnar och
+        stammar effektivt och skonsamt. Avloppsspolning avlägsnar fett, hår, kalk och annat
+        som fastnat i ledningarna och återställer flödet. Vid behov utför vi även rotfräsning
+        när rötter trängt in i ledningssystemet.
+      </p>
+      <p>
+        Vi erbjuder också TV-inspektion av ledningar för att kartlägga skick och identifiera
+        problem utan grävning. Regelbunden avloppsspolning är ett enkelt och kostnadseffektivt
+        sätt att undvika dyra akutinsatser.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Högtrycksspolning av avlopp, golvbrunnar och stammar</li>
+        <li>Rotfräsning vid rotintrång i avloppsledningar</li>
+        <li>TV-inspektion för kartläggning av ledningarnas skick</li>
+        <li>Snabb utryckning vid akuta avloppsstopp</li>
+        <li>Serviceavtal och förebyggande service för BRF och fastigheter</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: VARMVATTENBEREDARE
+================================================================ -->
+<div id="page-varmvattenberedare" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › Varmvattenberedare
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="varmvattenberedare.jpg"
+    alt="Varmvattenberedare Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>Varmvattenberedare</h1>
+      <p>
+        Varmvattenberedaren – även kallad varmvattentank, boiler eller värmeberedare – är en
+        av de viktigaste komponenterna i en fastighets VVS-system. När den slutar fungera
+        påverkas hela hushållet direkt. Idis Rör AB hjälper dig med installation, byte och
+        service av varmvattenberedare av alla fabrikat och storlekar.
+      </p>
+      <p>
+        Vi installerar elektriska varmvattenberedare, varmvattenberedare med värmepump och
+        genomströmningsvärmare. Vi utför också anslutningar mot fjärrvärme och hjälper dig
+        välja rätt system baserat på hushållets behov, bostadens storlek och dina önskemål.
+        En korrekt installerad värmeberedare ger bättre energieffektivitet och förlängd
+        livslängd.
+      </p>
+      <p>
+        Utöver nyinstallation erbjuder vi felsökning och löpande service av befintliga
+        varmvattenberedare. Ofta kan ett serviceproblem åtgärdas utan att hela enheten
+        behöver bytas ut. Våra auktoriserade rörmokare ger dig en ärlig bedömning och
+        rekommenderar den bästa lösningen för din situation.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Installation av alla typer av varmvattenberedare och boilers</li>
+        <li>Anslutning mot fjärrvärme och värmepump</li>
+        <li>Felsökning och service av befintliga system</li>
+        <li>Oberoende rådgivning om bästa lösning för ditt hushåll</li>
+        <li>Snabb utryckning vid akut haveri</li>
+        <li>ROT-avdrag kan tillämpas för privatpersoner</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: SERVICE & UNDERHÅLL
+================================================================ -->
+<div id="page-service-underhall" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › Service &amp; Underhåll
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="service%20och%20underh%C3%A5ll.jpg"
+    alt="Service och underhåll Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>Service &amp; Underhåll</h1>
+      <p>
+        Regelbunden VVS-service och planerat underhåll av rör och installationer är nyckeln
+        till ett tryggt och fungerande fastighetssystem. Idis Rör AB erbjuder professionell
+        fastighetsservice och underhållsjobb för privatpersoner, bostadsrättsföreningar och
+        fastighetsägare i hela Storstockholm.
+      </p>
+      <p>
+        Genom att investera i löpande underhåll och rondering av dina VVS-installationer
+        förebygger du kostsamma akutinsatser och förlänger livslängden på rör, kranar,
+        blandare och varmvattensystem. Vår VVS-service innefattar allt från byte av slitna
+        packningar och tätningar till kontroll av värmesystem, radiatorer och
+        varmvattenberedare.
+      </p>
+      <p>
+        Vi erbjuder serviceavtal anpassade för fastigheter och BRF:er som söker en pålitlig
+        VVS-partner för löpande underhåll. Med fasta servicetillfällen och tydlig
+        rapportering håller du koll på dina installationer utan bekymmer.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Serviceavtal för fastigheter och bostadsrättsföreningar</li>
+        <li>Kontroll av värmesystem, radiatorer och rördragningar</li>
+        <li>Byte av packningar, tätningar och slitdelar</li>
+        <li>Underhåll av varmvattenberedare och cirkulationspumpar</li>
+        <li>Tydlig rapportering och fast serviceplan</li>
+        <li>ROT-avdrag kan tillämpas för privatpersoner</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TJÄNSTESIDA: VVS-RENOVERING
+================================================================ -->
+<div id="page-vvs-renovering" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › VVS-renovering
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="vvs%20renovering.jpg"
+    alt="VVS-renovering Stockholm – Idis Rör AB"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+    <div class="text-kolumn">
+      <h1>VVS-renovering</h1>
+      <p>
+        VVS-renovering innefattar allt från stambyten och ledningsbyten till kompletta
+        VVS-ombyggnader av fastigheter. Det är ett arbete som kräver erfarenhet, noggrannhet
+        och rätt kompetens. Idis Rör AB tar ansvar för VVS-renoveringar i alla storlekar –
+        från enstaka badrumsombyggnader till storskaliga stambyten i flerbostadshus.
+      </p>
+      <p>
+        Ett stambyte innebär att befintliga vatten- och avloppsstammar byts ut mot nya
+        ledningar, vilket är nödvändigt i äldre fastigheter där rören nått sin tekniska
+        livslängd. En VVS-uppgradering av det här slaget är ett av de viktigaste
+        underhållsprojekten en bostadsrättsförening eller fastighetsägare kan genomföra –
+        det skyddar mot framtida vattenskador och ökar fastighetens värde på lång sikt.
+      </p>
+      <p>
+        Vi samarbetar med arkitekter, byggledare och andra hantverkare för att säkerställa
+        ett smidigt projektgenomförande. Med Idis Rör AB som VVS-partner får du en tydlig
+        projektplan, löpande kommunikation och ett fackmässigt utfört resultat.
+      </p>
+
+      <span class="usp-rubrik">Varför välja Idis Rör AB</span>
+      <ul class="usp-lista">
+        <li>Stambyten i flerbostadshus och villor</li>
+        <li>Komplett VVS-ombyggnad av fastigheter</li>
+        <li>Projektering och teknisk rådgivning</li>
+        <li>Samarbetar med arkitekter och byggledare</li>
+        <li>ROT-avdrag kan tillämpas för privatpersoner</li>
+        <li>Kostnadsfri besiktning och offert för större projekt</li>
+        <li>Vi utgår från Hägersten – hela Storstockholm</li>
+      </ul>
+    </div>
+
+    <div class="form-kolumn tjanst-formular"></div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     SIDA: I SKUGGAN AV SLAGEN
+================================================================ -->
+<div id="page-i-skuggan-av-slagen" class="page">
+  <div class="breadcrumb">
+    <a href="#" onclick="navigera('hem'); return false;">Hem</a> › I skuggan av slagen
+  </div>
+
+  <img
+    class="tjanst-hero-bild"
+    src="stockholm.jpg"
+    alt="Stockholm – bakgrund till boken I skuggan av slagen"
+    onerror="this.style.background='var(--ljusbla)';this.style.display='block'"
+  >
+
+  <div class="tva-kolumner">
+
+    <!-- Vänster: boktext -->
+    <div class="text-kolumn">
+      <h1>Joakim "Idis" Eriksson</h1>
+
+      <p>
+        Bakom Idis Rör AB står Joakim "Idis" Eriksson. Förutom att driva rörfirma är han
+        även utbildad behandlingsassistent och beroendeterapeut. Vägen fram till att i dag
+        driva eget företag har dock varit lång och kantad av utmaningar – något han själv
+        berättar om i sin uppmärksammade självbiografi <em>I skuggan av slagen</em>.
+      </p>
+
+      <span class="usp-rubrik">Om boken</span>
+
+      <p>
+        Stockholms Stadion, tidigt 90-tal. I klacken kokar känslorna över under Djurgårdens
+        hemmamatcher – men det är utanför arenan som den riktiga drabbningen väntar. För
+        15-åriga Joakim blir det första mötet med våldet som att hitta hem.
+      </p>
+      <p>
+        Han finner snabbt gemenskapen i Blue Saints hårdaste kärna och blir del av ett
+        brödraskap där lojalitet och förmågan att aldrig backa väger tyngre än allt annat.
+        Tillsammans reser de varthän Djurgården spelar i jakt på nästa box, nästa kravall.
+        Genom att låta sina knytnävar tala blir Idis ett fruktat namn bland landets ligister
+        och ledare för DFG (Djurgårdens Fina Grabbar). Men varje seger har sitt pris, och i
+        skuggan av slagen tornar konsekvenserna upp sig: vänner som dör, missbruk,
+        fängelsedomar och trasiga relationer. Till slut står Idis på ruinens brant – ärrad,
+        skuldsatt och hemlös.
+      </p>
+      <p>
+        <em>I skuggan av slagen</em> är en brutal skildring av en pojke från Rissne som
+        blev en av landets mest fruktade huliganledare. Det är en explosiv berättelse om
+        svensk firmakultur och en resa in i våldets psykologi, adrenalinet och de slutna
+        sällskapens spelregler.
+      </p>
+    </div>
+
+    <!-- Höger: bokbild + köp-knapp -->
+    <div class="bok-bild-wrapper">
+      <img
+        src="i%20skuggan%20av%20slagen.jpeg"
+        alt="I skuggan av slagen – omslag"
+        class="bok-bild"
+      >
+      <a
+        href="https://mondial.se/products/idis-bok"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-orange"
+        style="width:100%; display:block; text-align:center;"
+        aria-label="Köp boken I skuggan av slagen hos Mondial förlag"
+      >
+        Köp boken &rarr;
+      </a>
+      <p style="font-size:0.82rem; color:var(--text-gra); margin-top:0.75rem; text-align:center;">
+        Beställ hos Mondial förlag.<br>En berättelse som stannar kvar.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ================================================================
+     SIDFOT
+================================================================ -->
+<footer>
+  <div class="footer-inner">
+
+    <!-- Kolumn 1: Företagsinfo -->
+    <div class="footer-kolumn">
+      <span class="footer-logo-text">IDIS RÖR AB</span>
+      <p>Auktoriserad VVS-firma i Storstockholm. Vi utför alla typer av rör- och VVS-arbeten med hög kvalitet.</p>
+      <p style="margin-top:0.5rem;">Org.nr: 559146-8953</p>
+      <p>Sulvägen 70, 12640 Hägersten</p>
+    </div>
+
+    <!-- Kolumn 2: Kontakt -->
+    <div class="footer-kolumn">
+      <h4>Kontakt</h4>
+      <a href="tel:0704831263" aria-label="Ring Idis Rör AB">📞 070-483 12 63</a>
+      <a href="mailto:sanktidis76@gmail.com" aria-label="Skicka e-post till Idis Rör AB">✉️ sanktidis76@gmail.com</a>
+      <p itemscope itemtype="https://schema.org/PostalAddress">
+        📍 <span itemprop="streetAddress">Sulvägen 70</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="postalCode">12640</span>
+        <span itemprop="addressLocality"> Hägersten</span>
+      </p>
+    </div>
+
+    <!-- Kolumn 3: Snabblänkar -->
+    <div class="footer-kolumn">
+      <h4>Tjänster</h4>
+      <a href="#" onclick="navigera('rorinstallation'); return false;">Rörinstallation</a>
+      <a href="#" onclick="navigera('badrumsrenovering'); return false;">Badrumsrenovering</a>
+      <a href="#" onclick="navigera('avlopp-spolning'); return false;">Avlopp &amp; Spolning</a>
+      <a href="#" onclick="navigera('service-underhall'); return false;">Service &amp; Underhåll</a>
+      <a href="#" onclick="navigera('varmvattenberedare'); return false;">Varmvattenberedare</a>
+      <a href="#" onclick="navigera('vattenlacka'); return false;">Vattenläcka</a>
+      <a href="#" onclick="navigera('vvs-renovering'); return false;">VVS-renovering</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; 2025 Idis Rör AB. Alla rättigheter förbehålls.</span>
+    <span>Auktoriserad rörmokare Stockholm | Org.nr 559146-8953</span>
+  </div>
+</footer>
+
+
+<!-- ================================================================
+     JAVASCRIPT – Navigation, formulär och interaktion
+================================================================ -->
+<script>
+/* ===== ÄNDRA HÄR – Sidtitlar och metabeskrivningar ===== */
+  var SIDDATA = {
+    'hem': {
+      titel: 'Rörmokare Stockholm – Idis Rör AB | VVS & Rörinstallation',
+      beskrivning: 'Auktoriserad rörmokare i Stockholm. Idis Rör AB utför VVS, badrumsrenovering, rörinstallation och jour. Utgår från Hägersten – hela Storstockholm.'
+    },
+    'rorinstallation': {
+      titel: 'Rörinstallation Stockholm – Idis Rör AB',
+      beskrivning: 'Auktoriserad rörinstallation i Stockholm. Idis Rör AB utför ledningsdragning, rörmontage och VVS-installationer för privatpersoner och företag.'
+    },
+    'badrumsrenovering': {
+      titel: 'Badrumsrenovering Stockholm – Idis Rör AB',
+      beskrivning: 'Professionell badrumsrenovering i Stockholm. Auktoriserade rörmokare utför komplett VVS-installation, badrumsombyggnad och kakelläggning. Ring 070-483 12 63.'
+    },
+    'avlopp-spolning': {
+      titel: 'Avlopp & Spolning Stockholm – Idis Rör AB',
+      beskrivning: 'Professionell avloppsspolning i Stockholm. Högtrycksspolning, rotfräsning och TV-inspektion. Idis Rör AB löser alla avloppsproblem snabbt.'
+    },
+    'service-underhall': {
+      titel: 'Service & Underhåll Stockholm – Idis Rör AB',
+      beskrivning: 'Professionell VVS-service och underhåll i Stockholm. Serviceavtal för fastigheter och BRF. Idis Rör AB – din pålitliga VVS-partner.'
+    },
+    'varmvattenberedare': {
+      titel: 'Varmvattenberedare Stockholm – Idis Rör AB',
+      beskrivning: 'Installation och service av varmvattenberedare i Stockholm. Idis Rör AB hjälper dig med byte, installation och felsökning. Ring för offert.'
+    },
+    'vattenlacka': {
+      titel: 'Vattenläcka Stockholm – Idis Rör AB',
+      beskrivning: 'Snabb hjälp vid vattenläcka i Stockholm. Idis Rör AB rycker ut snabbt vid akuta rörstörningar och vattenskador. Ring 070-483 12 63.'
+    },
+    'vvs-renovering': {
+      titel: 'VVS-renovering Stockholm – Idis Rör AB',
+      beskrivning: 'Professionell VVS-renovering och stambyte i Stockholm. Idis Rör AB utför kompletta VVS-ombyggnader för fastigheter och bostadsrättsföreningar.'
+    },
+    'i-skuggan-av-slagen': {
+      titel: 'I skuggan av slagen – Joakim "Idis" Erikssons självbiografi',
+      beskrivning: 'I skuggan av slagen är Joakim Erikssons självbiografi om firmakultur, fotboll och ett liv i Djurgårdens hårdaste kärna. Beställ hos Mondial förlag.'
+    }
+  };
+
+  /* Injicera kontaktformulär från template */
+  function injiceraFormular(element) {
+    if (!element || element.querySelector('form')) return;
+    var mall = document.getElementById('kontakt-mall');
+    var klon = mall.content.cloneNode(true);
+    element.appendChild(klon);
+  }
+
+  /* Navigera till en sida */
+  function navigera(sida) {
+    // Dölj alla sidor
+    document.querySelectorAll('.page').forEach(function(p) {
+      p.classList.remove('active');
+    });
+
+    // Visa rätt sida
+    var el = document.getElementById('page-' + sida);
+    if (!el) return false;
+    el.classList.add('active');
+
+    // Injicera formulär i tjänstesidor och startsida
+    if (sida === 'hem') {
+      injiceraFormular(document.getElementById('hem-formular-plats'));
+    } else if (sida !== 'i-skuggan-av-slagen') {
+      var formKol = el.querySelector('.tjanst-formular');
+      if (formKol) injiceraFormular(formKol);
+    }
+
+    // Uppdatera titel och metabeskrivning
+    var data = SIDDATA[sida] || SIDDATA['hem'];
+    document.title = data.titel;
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', data.beskrivning);
+
+    // Uppdatera URL-hash
+    window.location.hash = (sida !== 'hem') ? sida : '';
+
+    // Stäng mobilmeny
+    document.getElementById('nav-lista').classList.remove('open');
+
+    // Scrolla till toppen
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    return false;
+  }
+
+  /* Scrolla till kontaktformuläret på startsidan */
+  function scrollaTillFormular() {
+    var formular = document.querySelector('#page-hem .form-kolumn');
+    if (formular) {
+      formular.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  /* Hamburgermeny (mobil) */
+  function toggleMeny() {
+    document.getElementById('nav-lista').classList.toggle('open');
+  }
+
+  /* Dropdown-meny på mobil (toggle vid tap) */
+  function toggleDropdown(span) {
+    if (window.innerWidth <= 800) {
+      span.parentElement.classList.toggle('open');
+    }
+  }
+
+  /* Visa filnamn vid uppladdning */
+  function visaFilnamn(input) {
+    var info = input.closest('.fil-upload').querySelector('.fil-namn');
+    if (input.files && input.files.length > 0) {
+      var namn = Array.from(input.files).map(function(f) { return f.name; }).join(', ');
+      info.textContent = '✓ ' + namn;
+    } else {
+      info.textContent = '';
+    }
+  }
+
+  /* Formulärhantering */
+  function hanteraFormular(event) {
+    event.preventDefault();
+    var form = event.target;
+    var knapp = form.querySelector('.form-skicka');
+    knapp.textContent = '✓ Tack! Vi hör av oss snart.';
+    knapp.style.background = '#2eab60';
+    knapp.disabled = true;
+    setTimeout(function() {
+      form.reset();
+      var filnamn = form.querySelector('.fil-namn');
+      if (filnamn) filnamn.textContent = '';
+      knapp.textContent = 'Skicka förfrågan →';
+      knapp.style.background = '';
+      knapp.disabled = false;
+    }, 5000);
+    return false;
+  }
+
+  /* Stäng meny vid klick utanför */
+  document.addEventListener('click', function(e) {
+    var nav = document.querySelector('nav');
+    if (nav && !nav.contains(e.target)) {
+      document.getElementById('nav-lista').classList.remove('open');
+    }
+  });
+
+  /* Tangentbordsnavigering för nav-logo */
+  document.addEventListener('DOMContentLoaded', function() {
+    var logo = document.querySelector('.nav-logo');
+    if (logo) {
+      logo.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') navigera('hem');
+      });
+    }
+
+    // Injicera formulär på startsidan direkt
+    injiceraFormular(document.getElementById('hem-formular-plats'));
+
+    // Läs hash för direktlänkar (t.ex. idisror.se/#badrumsrenovering)
+    var hash = window.location.hash.replace('#', '');
+    if (hash && document.getElementById('page-' + hash)) {
+      navigera(hash);
+    }
+  });
+</script>
+
+</body>
+</html>
