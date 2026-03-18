@@ -6,7 +6,6 @@
     E-post:      sanktidis76@gmail.com
     Adress:      Sulvägen 70, 12640 Hägersten
     Org.nr:      559146-8953
-    Logotyp:     idis_logo_transparent.png
     Formspree:   Byt ut FORMSPREE-ID nedan mot ditt riktiga Formspree-ID
     Canonical:   Byt ut https://www.idisror.se/ mot din riktiga domän
   ===================== -->
@@ -15,24 +14,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- SEO: Titel & beskrivning -->
-  <title>Rörmokare Stockholm – Idis Rör AB | VVS &amp; Rörinstallation</title>
-  <meta name="description" content="Auktoriserad rörmokare i Stockholm. Idis Rör AB utför VVS, badrumsrenovering, rörinstallation och jour. Utgår från Hägersten – hela Storstockholm." />
+  <title>Rörinstallation Stockholm – Idis Rör AB | Auktoriserad VVS</title>
+  <meta name="description" content="Professionell rörinstallation i Stockholm av auktoriserade rörmokare. Idis Rör AB installerar vatten, avlopp och värme i hela Storstockholm. Kostnadsfri offert." />
 
   <!-- Canonical & hreflang -->
-  <link rel="canonical" href="https://www.idisror.se/" />
-  <link rel="alternate" hreflang="sv-SE" href="https://www.idisror.se/" />
+  <link rel="canonical" href="https://www.idisror.se/rorinstallation.html" />
+  <link rel="alternate" hreflang="sv-SE" href="https://www.idisror.se/rorinstallation.html" />
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" />
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website" />
-  <meta property="og:title"       content="Rörmokare Stockholm – Idis Rör AB | VVS &amp; Rörinstallation" />
-  <meta property="og:description" content="Auktoriserad rörmokare i Stockholm. Idis Rör AB utför VVS, badrumsrenovering, rörinstallation och jour. Utgår från Hägersten – hela Storstockholm." />
-  <meta property="og:url"         content="https://www.idisror.se/" />
+  <meta property="og:title"       content="Rörinstallation Stockholm – Idis Rör AB" />
+  <meta property="og:description" content="Professionell rörinstallation i Stockholm av auktoriserade rörmokare. Installationer av vatten, avlopp och värme – hela Storstockholm." />
+  <meta property="og:url"         content="https://www.idisror.se/rorinstallation.html" />
   <meta property="og:image"       content="idis_logo_transparent.png" />
 
-  <!-- Google Fonts – self-hosted (se fonts/-mappen) -->
+  <!-- Gemensam CSS -->
   <link rel="stylesheet" href="style.css" />
 
   <!-- Strukturerad data – LocalBusiness (JSON-LD) -->
@@ -41,7 +40,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Idis Rör AB",
-    "url": "https://www.idisror.se/",
+    "url": "https://www.idisror.se/rorinstallation.html",
     "telephone": "+46704831263",
     "email": "sanktidis76@gmail.com",
     "address": {
@@ -52,8 +51,7 @@
       "addressCountry": "SE"
     },
     "areaServed": "Stockholm",
-    "description": "Auktoriserad rörmokare i Stockholm. VVS, badrumsrenovering, rörinstallation och jour.",
-    "priceRange": "$$"
+    "description": "Professionell rörinstallation i Stockholm av auktoriserade rörmokare."
   }
   </script>
 </head>
@@ -68,14 +66,12 @@
   <header class="site-header" role="banner">
     <div class="header-inner">
 
-      <!-- Logotyp som länk till startsidan -->
       <a href="index.html" class="site-logo" aria-label="Idis Rör AB – till startsidan">
         <img src="logotype header.png"
              alt="Idis Rör AB logotyp"
              width="160" height="52" />
       </a>
 
-      <!-- Hamburger-knapp (visas bara på mobil) -->
       <button class="hamburger"
               id="hamburger-btn"
               aria-controls="site-nav"
@@ -86,16 +82,13 @@
         <span></span>
       </button>
 
-      <!-- Navigation -->
       <nav class="site-nav" id="site-nav" aria-label="Huvudnavigation">
         <ul class="nav-list" role="list">
 
-          <!-- Hem -->
           <li>
-            <a href="index.html" aria-current="page">Hem</a>
+            <a href="index.html">Hem</a>
           </li>
 
-          <!-- Tjänster – dropdown -->
           <li id="nav-services">
             <button class="nav-dropdown-trigger"
                     aria-expanded="false"
@@ -104,7 +97,7 @@
               Tjänster <span class="arrow" aria-hidden="true">▾</span>
             </button>
             <ul class="dropdown-menu" id="dropdown-services" role="list">
-              <li><a href="rorinstallation.html">Rörinstallation</a></li>
+              <li><a href="rorinstallation.html" aria-current="page">Rörinstallation</a></li>
               <li><a href="badrumsrenovering.html">Badrumsrenovering</a></li>
               <li><a href="avlopp-spolning.html">Avlopp &amp; Spolning</a></li>
               <li><a href="service-underhall.html">Service &amp; Underhåll</a></li>
@@ -114,12 +107,10 @@
             </ul>
           </li>
 
-          <!-- Om Joakim -->
           <li>
             <a href="joakim-idis-eriksson.html">Joakim "Idis" Eriksson</a>
           </li>
 
-          <!-- Ring-knapp (alltid synlig) -->
           <li>
             <a href="tel:0704831263" class="btn-call-header" aria-label="Ring oss på 070-483 12 63">
               📞 Ring oss: 070-483 12 63
@@ -136,75 +127,70 @@
        ============================================= -->
   <main id="main-content">
 
-    <!-- ── HERO ─────────────────────────────────── -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="container">
-
-        <!-- Logotyp i hero (ljusblå bakgrund via .hero) -->
-        <div class="hero-logo-wrap">
-          <img src="idis_logo_transparent.png"
-               alt="Idis Rör AB – auktoriserad rörmokare i Stockholm"
-               width="280" height="92" />
-        </div>
-
-        <!-- Underrubrik -->
-        <p class="hero-subtitle">
-          Auktoriserad rörmokare i Storstockholm.<br>
-          Stora som små jobb med kvalité i fokus.
-        </p>
-
-        <!-- CTA-knappar -->
-        <div class="hero-ctas">
-          <a href="tel:0704831263" class="btn btn-primary" aria-label="Ring Idis Rör nu på 070-483 12 63">
-            📞 Ring nu: 070-483 12 63
-          </a>
-          <a href="#kontaktformular" class="btn btn-outline">
-            Skicka förfrågan ↓
-          </a>
-        </div>
-
+    <!-- ── HERO-BILD ─────────────────────────────── -->
+    <div class="service-hero" role="img" aria-label="Rörinstallation Stockholm – Idis Rör AB">
+      <img src="rörinstallation.jpg"
+           alt="Rörinstallation Stockholm – Idis Rör AB"
+           width="1200" height="400"
+           loading="lazy"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <!-- Platshållare om bilden saknas -->
+      <div class="service-hero-placeholder" style="display:none;" aria-hidden="true">
+        <span>Rörinstallation</span>
       </div>
-    </section>
+    </div>
 
     <!-- ── TVÅKOLUMNS-SEKTION ───────────────────── -->
-    <section aria-label="Om oss och kontakt">
+    <section aria-label="Rörinstallation – information och kontakt">
       <div class="container">
-        <div class="two-col">
+        <div class="two-col two-col-service">
 
-          <!-- VÄNSTER – Företagstext & Varför välja oss -->
+          <!-- VÄNSTER (60%) – Innehåll -->
           <div class="content-col">
 
+            <!-- H1: endast tjänstens namn -->
+            <h1>Rörinstallation</h1>
+
             <p>
-              Idis Rör AB är ett etablerat VVS-företag med bred kompetens inom alla typer av
-              VVS-installationer. Vi utför arbeten åt företag, privatpersoner och
-              bostadsrättsföreningar, alltid med fokus på kvalitet, säkerhet och fackmässigt
-              utförande. Samtliga arbeten utförs av auktoriserade rörmokare.
+              Rörinstallation är grunden i varje VVS-projekt – oavsett om det handlar om ett
+              nybygge, en renovering eller ett byte av befintliga ledningar. Idis Rör AB utför
+              professionella rörinstallationer för vatten, avlopp och värme i bostäder,
+              lokaler och fastigheter i hela Storstockholm.
             </p>
             <p>
-              Vi utgår från Hägersten och åtar oss uppdrag i hela Storstockholm. Våra tjänster
-              omfattar allt från servicejobb och mindre ombyggnader till renoveringar och
-              kompletta VVS-lösningar. Med vår erfarenhet och goda samarbetspartners kan
-              Idis Rör AB ta ansvar för både mindre projekt och mer omfattande arbeten.
+              Vi arbetar med moderna material och beprövade metoder som uppfyller gällande
+              byggregler och branschstandarder. Oavsett om du behöver dra nya vattenledningar
+              i samband med ett köksbyte, installera golvvärme i badrummet eller byta ut
+              gamla rostiga rör – vi har kompetensen och utrustningen för jobbet.
             </p>
             <p>
-              Vi erbjuder pålitlig service, tydlig kommunikation och lösningar anpassade efter
-              kundens behov – från första kontakt till färdigt resultat.
+              Våra auktoriserade rörmokare planerar varje installation noggrant för att
+              minimera störningar i din vardag. Vi erbjuder tydliga offerter utan dolda
+              kostnader och kommunicerar öppet under hela projektets gång. Arbetet utförs
+              alltid med säkerheten i fokus, och vi lämnar arbetsplatsen ren och ordnad
+              när vi är klara.
+            </p>
+            <p>
+              Vi åtar oss rörinstallationer av alla storlekar – från ett enstaka rörarbete
+              till hela rörrenoveringar i flerbostadshus. Kontakta oss för en kostnadsfri
+              bedömning och offert anpassad efter ditt specifika behov.
             </p>
 
-            <!-- Varför välja oss? -->
-            <div class="why-us">
-              <h2>Varför välja oss?</h2>
-              <ul class="usp-list" role="list">
-                <li>Auktoriserade rörmokare</li>
-                <li>Hela Storstockholm</li>
-                <li>Snabb service</li>
-                <li>Fast pris &amp; tydliga offerter</li>
-              </ul>
-            </div>
+            <!-- Varför välja Idis Rör? -->
+            <h2>Varför välja Idis Rör?</h2>
+            <ul class="usp-list" role="list">
+              <li>Auktoriserade rörmokare med lång erfarenhet av rörinstallationer</li>
+              <li>Installationer av vatten, avlopp och värme – alla typer av ledningar</li>
+              <li>Modern utrustning och material som uppfyller gällande byggregler</li>
+              <li>Tydlig offert utan dolda kostnader</li>
+              <li>ROT-avdrag kan tillämpas (privatpersoner)</li>
+              <li>Vi utgår från Hägersten – hela Storstockholm</li>
+              <li>Kostnadsfri offert</li>
+            </ul>
 
           </div>
 
-          <!-- HÖGER – Kontaktformulär -->
+          <!-- HÖGER (40%) – Kontaktformulär -->
           <div class="form-col" id="kontaktformular">
             <div class="form-card">
               <div class="form-card-header">Kontakta oss</div>
@@ -226,7 +212,7 @@
                       <label>
                         <input type="radio"
                                name="kundtyp"
-                               id="f-kundtyp-privat-start"
+                               id="f-kundtyp-privat-ror"
                                value="Privatperson"
                                checked />
                         Privatperson
@@ -234,7 +220,7 @@
                       <label>
                         <input type="radio"
                                name="kundtyp"
-                               id="f-kundtyp-foretag-start"
+                               id="f-kundtyp-foretag-ror"
                                value="Företag/BRF" />
                         Företag/BRF
                       </label>
@@ -244,9 +230,9 @@
 
                 <!-- 2. Namn -->
                 <div class="form-group">
-                  <label for="f-namn-start">Namn <span aria-hidden="true">*</span></label>
+                  <label for="f-namn-ror">Namn <span aria-hidden="true">*</span></label>
                   <input type="text"
-                         id="f-namn-start"
+                         id="f-namn-ror"
                          name="namn"
                          placeholder="Ditt namn"
                          required
@@ -256,9 +242,9 @@
 
                 <!-- 3. E-post -->
                 <div class="form-group">
-                  <label for="f-epost-start">E-post <span aria-hidden="true">*</span></label>
+                  <label for="f-epost-ror">E-post <span aria-hidden="true">*</span></label>
                   <input type="email"
-                         id="f-epost-start"
+                         id="f-epost-ror"
                          name="epost"
                          placeholder="din@epost.se"
                          required
@@ -268,9 +254,9 @@
 
                 <!-- 4. Telefon -->
                 <div class="form-group">
-                  <label for="f-telefon-start">Telefon</label>
+                  <label for="f-telefon-ror">Telefon</label>
                   <input type="tel"
-                         id="f-telefon-start"
+                         id="f-telefon-ror"
                          name="telefon"
                          placeholder="07X-XXX XX XX"
                          autocomplete="tel" />
@@ -278,8 +264,8 @@
 
                 <!-- 5. Meddelande -->
                 <div class="form-group">
-                  <label for="f-meddelande-start">Meddelande</label>
-                  <textarea id="f-meddelande-start"
+                  <label for="f-meddelande-ror">Meddelande</label>
+                  <textarea id="f-meddelande-ror"
                             name="meddelande"
                             rows="4"
                             placeholder="Beskriv ditt ärende – gärna med adress och önskat datum"></textarea>
@@ -287,13 +273,13 @@
 
                 <!-- 6. Bifoga bild -->
                 <div class="form-group">
-                  <label class="file-upload-label" for="f-bild-start">
+                  <label class="file-upload-label" for="f-bild-ror">
                     <span class="file-upload-icon" aria-hidden="true">📎</span>
                     <span class="file-upload-text">Klicka för att bifoga bilder</span>
                     <span class="file-upload-hint">JPG, PNG, HEIC – max 10 MB per bild</span>
                   </label>
                   <input type="file"
-                         id="f-bild-start"
+                         id="f-bild-ror"
                          name="bilder"
                          accept="image/*"
                          multiple
@@ -324,23 +310,17 @@
     <div class="container">
       <div class="footer-grid">
 
-        <!-- Kolumn 1: Företagsinfo -->
         <div class="footer-col">
           <h3>Idis Rör AB</h3>
           <p>Auktoriserad rörmokare i Storstockholm. Stora som små jobb med kvalité i fokus.</p>
           <p style="margin-top:0.5rem;">Org.nr: 559146-8953</p>
         </div>
 
-        <!-- Kolumn 2: Kontakt -->
         <div class="footer-col">
           <h3>Kontakt</h3>
           <address itemscope itemtype="https://schema.org/LocalBusiness">
-            <p>
-              📞 <a href="tel:0704831263" aria-label="Ring 070-483 12 63">070-483 12 63</a>
-            </p>
-            <p>
-              ✉️ <a href="mailto:sanktidis76@gmail.com">sanktidis76@gmail.com</a>
-            </p>
+            <p>📞 <a href="tel:0704831263" aria-label="Ring 070-483 12 63">070-483 12 63</a></p>
+            <p>✉️ <a href="mailto:sanktidis76@gmail.com">sanktidis76@gmail.com</a></p>
             <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
               📍
               <span itemprop="streetAddress">Sulvägen 70</span>,
@@ -350,7 +330,6 @@
           </address>
         </div>
 
-        <!-- Kolumn 3: Snabblänkar (ej Joakim-sidan) -->
         <div class="footer-col">
           <h3>Tjänster</h3>
           <ul class="footer-links" role="list">
@@ -365,8 +344,6 @@
         </div>
 
       </div>
-
-      <!-- Copyright -->
       <div class="footer-bottom">
         <p>© <span id="year"></span> Idis Rör AB | Org.nr 559146-8953</p>
       </div>
@@ -385,10 +362,8 @@
        JAVASCRIPT
        ============================================= -->
   <script>
-    /* Dynamiskt copyright-år */
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    /* ── Hamburger-meny ── */
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const siteNav      = document.getElementById('site-nav');
 
@@ -397,7 +372,6 @@
       hamburgerBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
-    /* Stäng mobil-menyn vid klick utanför */
     document.addEventListener('click', function (e) {
       if (!siteNav.contains(e.target) && !hamburgerBtn.contains(e.target)) {
         siteNav.classList.remove('is-open');
@@ -405,7 +379,6 @@
       }
     });
 
-    /* ── Dropdown (mobil – tap/klick) ── */
     document.querySelectorAll('.nav-dropdown-trigger').forEach(function (trigger) {
       trigger.addEventListener('click', function () {
         const parentLi = this.closest('li');
@@ -414,7 +387,6 @@
       });
     });
 
-    /* ── Dropdown (desktop – tangentbord Escape) ── */
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         document.querySelectorAll('.nav-dropdown-trigger').forEach(function (t) {
@@ -424,20 +396,6 @@
         siteNav.classList.remove('is-open');
         hamburgerBtn.setAttribute('aria-expanded', 'false');
       }
-    });
-
-    /* ── Smooth scroll till formuläret ── */
-    document.querySelectorAll('a[href="#kontaktformular"]').forEach(function (link) {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.getElementById('kontaktformular');
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          /* Flytta fokus till formulärets första fält */
-          const firstField = target.querySelector('input, textarea, select');
-          if (firstField) firstField.focus();
-        }
-      });
     });
   </script>
 
