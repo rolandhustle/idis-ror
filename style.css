@@ -232,8 +232,9 @@ button {
   outline: none;
 }
 
-/* Ring-knapp i header */
-.btn-call-header {
+/* Ring-knapp i header
+   Specificitet 0,2,2 – vinner över .nav-list > li > a (0,1,2) */
+.nav-list > li > a.btn-call-header {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -248,9 +249,10 @@ button {
   white-space: nowrap;
   margin-left: 0.5rem;
 }
-.btn-call-header:hover,
-.btn-call-header:focus-visible {
+.nav-list > li > a.btn-call-header:hover,
+.nav-list > li > a.btn-call-header:focus-visible {
   background: #e07d3f;
+  color: var(--clr-white);
   transform: translateY(-1px);
   outline: none;
 }
